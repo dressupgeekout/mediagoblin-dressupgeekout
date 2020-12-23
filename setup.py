@@ -138,7 +138,7 @@ install_requires = [
     'WebTest>=2.0.18',
     'ConfigObj',
     'Markdown',
-    'sqlalchemy',
+    'sqlalchemy==1.3.20',
     'itsdangerous',
     'pytz',
     'sphinx',
