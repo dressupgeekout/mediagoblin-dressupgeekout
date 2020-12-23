@@ -45,7 +45,7 @@ if not DISABLE_GLOBALS:
         def __init__(self, engine):
             self.engine = engine
 
-            set_models_as_attributes(self)
+            #set_models_as_attributes(self)
 
         def commit(self):
             Session.commit()
