@@ -124,7 +124,7 @@ install_requires = [
     'waitress',
     'alembic>=0.7.5',
     'python-dateutil',
-    'wtforms',
+    'wtforms==2.3.3',
     'py-bcrypt',
     'pytest>=2.3.1',
     'pytest-xdist',
